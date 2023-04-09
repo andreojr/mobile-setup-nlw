@@ -1,0 +1,1 @@
+export const generateProgressPercentage = (amount: number, completed: number) => Math.round(completed / amount * 100);
